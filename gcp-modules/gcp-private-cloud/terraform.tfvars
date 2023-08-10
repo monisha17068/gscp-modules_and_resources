@@ -1,0 +1,9 @@
+project = "hallowed-oven-369407"
+region = "asia-east1"
+name = "test-vpc"
+subnet_name = [ "public", "private"]
+ip_cidr_range = [ "10.2.0.0/16", "10.3.0.0/16" ]
+routing_mode ="REGIONAL"
+enable_ula_internal_ipv6        = false
+internal_ipv6_range             = null
+mtu=1460
